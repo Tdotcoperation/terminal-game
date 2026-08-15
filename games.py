@@ -1,0 +1,36 @@
+from games_action import snake, tetris, breakout, pong, rolling_sky, space_shooter, asteroids, racer, dodge, flappy
+from games_puzzle import game2048, minesweeper, maze, puzzle15, lights_out, reaction, typing_test, aim_trainer, simon, memory_cards
+from games_casual import blackjack, slots, dice_poker, rps, tic_tac_toe, connect4, hangman, number_guess, tower_stack, falling_blocks
+
+GAMES = [
+    ("snake", "Snake", "Classic real-time snake", snake),
+    ("tetris", "Tetris", "Falling tetromino puzzle", tetris),
+    ("breakout", "Breakout", "Bounce the ball, clear the bricks", breakout),
+    ("pong", "Pong", "First to 7 against CPU", pong),
+    ("rolling", "Rolling Sky 500", "500 procedural terminal stages", rolling_sky),
+    ("shooter", "Space Shooter", "Move and fire through enemy waves", space_shooter),
+    ("asteroids", "Asteroids", "Dodge rocks and pulse-shot nearby targets", asteroids),
+    ("racer", "Neon Racer", "Three-lane endless racing", racer),
+    ("dodge", "Dodge", "Survive falling hazards", dodge),
+    ("flappy", "Flappy Terminal", "One-key pipe flying", flappy),
+    ("2048", "2048", "Merge tiles to reach 2048", game2048),
+    ("mines", "Minesweeper", "Open all safe cells", minesweeper),
+    ("maze", "Maze Escape", "Randomly generated maze", maze),
+    ("puzzle15", "15 Puzzle", "Slide 1-15 into order", puzzle15),
+    ("lights", "Lights Out", "Turn every light off", lights_out),
+    ("reaction", "Reaction Test", "Measure your reaction time", reaction),
+    ("typing", "Typing Speed", "Terminal typing WPM test", typing_test),
+    ("aim", "Aim Trainer", "Keyboard crosshair target practice", aim_trainer),
+    ("simon", "Simon", "Repeat the growing sequence", simon),
+    ("memory", "Memory Cards", "Find all matching pairs", memory_cards),
+    ("blackjack", "Blackjack", "Beat the dealer without busting", blackjack),
+    ("slots", "Slot Machine", "Spin with a 100-coin bankroll", slots),
+    ("dicepoker", "Dice Poker", "Hold dice and chase combinations", dice_poker),
+    ("rps", "Rock Paper Scissors", "Ten rounds against CPU", rps),
+    ("ttt", "Tic Tac Toe", "3x3 against a simple AI", tic_tac_toe),
+    ("connect4", "Connect Four", "Drop four in a row", connect4),
+    ("hangman", "Hangman", "Guess the hidden word", hangman),
+    ("guess", "Number Guess", "Find the number from 1 to 100", number_guess),
+    ("stack", "Tower Stack", "Time each block and build upward", tower_stack),
+    ("falling", "Falling Blocks", "Catch stars, avoid bombs", falling_blocks),
+]
